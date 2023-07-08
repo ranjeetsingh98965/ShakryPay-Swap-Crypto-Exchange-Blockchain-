@@ -1,135 +1,36 @@
-This project was bootstrapped with [Create Eth App](https://github.com/paulrberg/create-eth-app).
+# ShakryPay-Swap
+A decentralized cryptocurrency exchange application where users can exchange crypto tokens. With this application, we have integrated MetaMask wallet, which uses Goerli test Ethereum as a gas fee. This application is governed through a smart contract developed using Cranq IDE.<br/>
 
-## Project Structure
+HOME SCREEN<br/>
+<img src="https://github.com/ranjeetsingh98965/ShakryPay-Swap-Crypto-Exchange-Blockchain-/assets/80505785/e9cf5948-1c50-4013-8248-41743738d778" width="700" height="370"><br/><br/>
 
-The default template is a monorepo created with [Yarn Workspaces](https://classic.yarnpkg.com/en/docs/workspaces/).
+CONNECT WALLET<br/>
+<img src="https://github.com/ranjeetsingh98965/ShakryPay-Swap-Crypto-Exchange-Blockchain-/assets/80505785/376475e6-16d9-48ed-8910-585a5ea07b45" width="700" height="370"><br/><br/>
 
-Workspaces makes it possible to setup multiple packages in such a way that we only need to run `yarn install` once to install all of them in
-a single pass. Dependencies are hoisted at the root.
+LIQUIDITY POOL<br/>
+<img src="https://github.com/ranjeetsingh98965/ShakryPay-Swap-Crypto-Exchange-Blockchain-/assets/80505785/b2a47d84-bf84-4481-8e80-754ae9f9989a" width="700" height="370"><br/><br/>
 
-```
-my-eth-app
-├── README.md
-├── node_modules
-├── package.json
-├── .gitignore
-└── packages
-    ├── contracts
-    │   ├── README.json
-    │   ├── package.json
-    │   └── src
-    │       ├── abis
-    │       │   ├── erc20.json
-    │       │   └── ownable.json
-    │       ├── addresses.js
-    │       └── index.js
-    ├── react-app
-    │   ├── README.md
-    │   ├── node_modules
-    │   ├── package.json
-    │   ├── public
-    │   │   ├── favicon.ico
-    │   │   ├── index.html
-    │   │   ├── logo192.png
-    │   │   ├── logo512.png
-    │   │   ├── manifest.json
-    │   │   └── robots.txt
-    │   └── src
-    │       ├── App.css
-    │       ├── App.js
-    │       ├── App.test.js
-    │       ├── ethereumLogo.svg
-    │       ├── index.css
-    │       ├── index.js
-    │       ├── serviceWorker.js
-    │       └── setupTests.js
-    └── subgraph
-        ├── README.md
-        ├── abis
-        │   └── erc20.json
-        ├── package.json
-        ├── schema.graphql
-        ├── src
-        │   └── mappings
-        │       ├── tokens.ts
-        │       └── transfers.ts
-        └── subgraph.yaml
-```
+LIQUIDITY POOL TOKENS<br/>
+<img src="https://github.com/ranjeetsingh98965/ShakryPay-Swap-Crypto-Exchange-Blockchain-/assets/80505785/5c11d88a-7bcd-42c6-8a70-e3938d26caf7" width="700" height="370"><br/><br/>
 
-Owing to this dependency on Yarn Workspaces, Create Eth App can't be used with npm.
+LIQUIDITY POOL TOKENS<br/>
+<img src="https://github.com/ranjeetsingh98965/ShakryPay-Swap-Crypto-Exchange-Blockchain-/assets/80505785/ca125001-39ac-46e7-b733-e5e28f6b3135" width="700" height="370"><br/><br/>
 
-## Available Scripts
+TOKENS APPROVAL<br/>
+<img src="https://github.com/ranjeetsingh98965/ShakryPay-Swap-Crypto-Exchange-Blockchain-/assets/80505785/af03c382-d8cf-49ae-97ac-5207d40915d4" width="700" height="370"><br/><br/>
 
-In the project directory, you can run:
+TOKENS SWAPPING<br/>
+<img src="https://github.com/ranjeetsingh98965/ShakryPay-Swap-Crypto-Exchange-Blockchain-/assets/80505785/e5f6ded8-37bf-4193-90f8-f6a113a9eb33" width="700" height="370"><br/><br/>
 
-### React App
+TOKENS REQUEST<br/>
+<img src="https://github.com/ranjeetsingh98965/ShakryPay-Swap-Crypto-Exchange-Blockchain-/assets/80505785/7f3d03a6-fa6f-4d02-84dd-d0b7a87f04f2" width="700" height="370"><br/><br/>
 
-#### `yarn react-app:start`
+SUCCESSFUL SWAPPING<br/>
+<img src="https://github.com/ranjeetsingh98965/ShakryPay-Swap-Crypto-Exchange-Blockchain-/assets/80505785/e4ad9036-0013-4c05-a229-ef11fd1cf5b4" width="700" height="370"><br/><br/>
 
-Runs the React app in development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will automatically reload if you make changes to the code.<br>
-You will see the build errors and lint warnings in the console.
 
-#### `yarn react-app:test`
 
-Runs the React test watcher in an interactive mode.<br>
-By default, runs tests related to files changed since the last commit.
 
-[Read more about testing React.](https://facebook.github.io/create-react-app/docs/running-tests)
 
-#### `yarn react-app:build`
 
-Builds the React app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the React documentation on [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-#### `yarn react-app:eject`
-
-**Note: this is a one-way operation. Once you `react-app:eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` the React app at any time. This command will
-remove the single build dependency from your React package.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right
-into the `react-app` package so you have full control over them. All of the commands except `react-app:eject` will still work,
-but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `react-app:eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-### Subgraph
-
-The Graph is a tool for for indexing events emitted on the Ethereum blockchain. It provides you with an easy-to-use GraphQL API. <br/>
-
-To learn more, check out the [The Graph documentation](https://thegraph.com/docs).
-
-#### `yarn subgraph:codegen`
-
-Generates AssemblyScript types for smart contract ABIs and the subgraph schema.
-
-#### `yarn subgraph:build`
-
-Compiles the subgraph to WebAssembly.
-
-#### `yarn subgraph:auth`
-
-Before deploying your subgraph, you need to sign up on the
-[Graph Explorer](https://thegraph.com/explorer/). There, you will be given an access token. Drop it in the command
-below:
-
-```sh
-GRAPH_ACCESS_TOKEN=your-access-token-here yarn subgraph:auth
-```
-
-#### `yarn subgraph:deploy`
-
-Deploys the subgraph to the official Graph Node.<br/>
-
-Replace `paulrberg/create-eth-app` in the package.json script with your subgraph's name.
-
-You may also want to [read more about the hosted service](https://thegraph.com/docs/quick-start#hosted-service).
